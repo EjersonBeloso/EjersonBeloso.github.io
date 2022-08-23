@@ -2,7 +2,7 @@
 //lat2,lon2 = Coordinates sample for Palawan
 function CalcDistanceBetween(lat1, lon1, lat2, lon2) {
   //Radius of the earth in:  1.609344 miles,  6371 km  | var R = (6371 / 1.609344);
-  var R = 6371; // Radius of earth in Miles 
+  var R = 6371; // Radius of earth in Kilometers
   var dLat = toRad(lat2-lat1);
   var dLon = toRad(lon2-lon1); 
   var a = Math.sin(dLat/2) * Math.sin(dLat/2) +
