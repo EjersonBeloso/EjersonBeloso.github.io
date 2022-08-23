@@ -7,6 +7,145 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Test</h1>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <title>Document</title>
+      </head>
+      <style>
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      </style>
+      <body>
+        <div class="bg-info">
+          <nav class="navbar navbar-expand-lg bg-info">
+            <div class="container">
+              <a class="navbar-brand" href="#">LocalNoodleHaus</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="collapse navbar-collapse justify-content-between"
+                id="navbarNavAltMarkup"
+              >
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                  <a class="nav-link" href="/pages/create.html"
+                    >Create Restaurant</a
+                  >
+                  <a class="nav-link" href="/pages/Edit.html"
+                    >Edit Restaurant</a
+                  >
+                </div>
+                <!-- ---------------------------------------------modal--------------------------------------------------------- -->
+                <div class="d-flex">
+                  <!-- log-in page -->
+                  <div class="m-2">
+                    <a
+                      class="btn btn-primary text-light"
+                      href="/pages/log-in.html"
+                      >Sign-in</a
+                    >
+                  </div>
+                  <!-- end of log-in -->
+                  <!-- Button trigger modal -->
+                  <button
+                    type="button"
+                    class="btn btn-primary m-2"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    Inventory
+                  </button>
+
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="exampleModal"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                            RestoDemo Records
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <h6>List of Items</h6>
+                       
+                        </div>
+                        <div class="modal-footer">
+                          <p>Click add button if you want to add item</p>
+                          <button type="button" class="btn btn-primary">
+                            Add Items
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- ----------------------------------------------------end of modal--------------------------------------------- -->
+              </div>
+            </div>
+          </nav>
+        </div>
+        <!-- ----------------------------content---------------------------------------- -->
+        <div>
+          <div class="d-flex flex-wrap justify-content-around">
+        <div class="card my-3 shadow p-3" style="width: 24rem">
+          <h3>Donsol, Bicol</h3>
+          <img
+            src="/images/01-whale-sharks-in-donsol.jpg"
+            class="card-img-top"
+            alt="donsol.png"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Sorsogon Bicol</h5>
+            <p class="card-text">South</p>
+            <a href="#" class="btn btn-primary">Get Distance</a>
+          </div>
+        </div>
+
+        </div>
+
+        <!-- ----------------------------------------end of content------------------------------- -->
+        <footer
+          class="navbar bg-info fixed-bottom navbar-dark text-center mt-3"
+        >
+          <div class="container">
+            <p class="navbar-brand text-dark mx-auto disabled">
+              Copyright © 2022 Kilometer KodeGo
+            </p>
+          </div>
+        </footer>
+      </body>
+    </html>
   </body>
+  <script src="/js/bootstrap.bundle.js"></script>
 </html>
+
