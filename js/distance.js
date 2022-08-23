@@ -21,7 +21,7 @@ function manilaToDonsol() {
           Math.sin(dLon/2) * Math.sin(dLon/2); 
   var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
   var d = R * c;
-  document.getElementById("").innerHTML = "The distance is" + d.toString();
+  document.getElementById("#carbon").innerHTML = " "+ d.toString() +" "+"KM";
 }
 function manilaToElNido() {
   var lat1 = 14.59440662328432; // latitute of Manila
@@ -36,7 +36,7 @@ function manilaToElNido() {
           Math.sin(dLon/2) * Math.sin(dLon/2); 
   var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
   var d = R * c;
-  document.getElementById("").innerHTML = "The distance is" + d.toString();
+  document.getElementById("").innerHTML = " "+ d.toString() +" "+"KM";
 }
 function manilaToMountApo() {
   var lat1 = 14.59440662328432; // latitute of Manila
@@ -51,7 +51,7 @@ function manilaToMountApo() {
           Math.sin(dLon/2) * Math.sin(dLon/2); 
   var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
   var d = R * c;
-  document.getElementById("").innerHTML = "The distance is" + d.toString();
+  document.getElementById("").innerHTML = " "+ d.toString() +" "+"KM";
 }
 function manilaToSiargao() {
   var lat1 = 14.59440662328432; // latitute of Manila
@@ -66,7 +66,7 @@ function manilaToSiargao() {
           Math.sin(dLon/2) * Math.sin(dLon/2); 
   var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
   var d = R * c;
-  document.getElementById("").innerHTML = "The distance is" + d.toString();
+  document.getElementById("").innerHTML = " "+ d.toString() +" "+"KM";
 }
 function manilaToBohol() {
   var lat1 = 14.59440662328432; // latitute of Manila
@@ -81,7 +81,7 @@ function manilaToBohol() {
           Math.sin(dLon/2) * Math.sin(dLon/2); 
   var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
   var d = R * c;
-  document.getElementById("").innerHTML = "The distance is" + d.toString();
+  document.getElementById("").innerHTML = " "+ d.toString() +" "+"KM";
 }
 function manilaToBanaue() {
   var lat1 = 14.59440662328432; // latitute of Manila
@@ -96,7 +96,7 @@ function manilaToBanaue() {
           Math.sin(dLon/2) * Math.sin(dLon/2); 
   var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
   var d = R * c;
-  document.getElementById("").innerHTML = "The distance is" + d.toString();
+  document.getElementById("").innerHTML = " "+ d.toString() +" "+"KM";
 }
 function manilaToApoIsland() {
   var lat1 = 14.59440662328432; // latitute of Manila
@@ -111,7 +111,7 @@ function manilaToApoIsland() {
           Math.sin(dLon/2) * Math.sin(dLon/2); 
   var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
   var d = R * c;
-  document.getElementById("").innerHTML = "The distance is" + d.toString();
+  document.getElementById("").innerHTML = " "+ d.toString() +" "+"KM";
 }
 function manilaToViganCity() {
   var lat1 = 14.59440662328432; // latitute of Manila
@@ -126,7 +126,7 @@ function manilaToViganCity() {
           Math.sin(dLon/2) * Math.sin(dLon/2); 
   var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
   var d = R * c;
-  document.getElementById("").innerHTML = "The distance is" + d.toString();
+  document.getElementById("").innerHTML = " "+ d.toString() +" "+"KM";
 }
 function manilaToKissesIslets() {
   var lat1 = 14.59440662328432; // latitute of Manila
@@ -141,7 +141,7 @@ function manilaToKissesIslets() {
           Math.sin(dLon/2) * Math.sin(dLon/2); 
   var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
   var d = R * c;
-  document.getElementById("").innerHTML = "The distance is" + d.toString();
+  document.getElementById("").innerHTML = " "+ d.toString() +" "+"KM";
 }
 function manilaToCarbonMarket() {
   var lat1 = 14.59440662328432; // latitute of Manila
@@ -156,7 +156,7 @@ function manilaToCarbonMarket() {
           Math.sin(dLon/2) * Math.sin(dLon/2); 
   var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
   var d = R * c;
-  document.getElementById("").innerHTML = "The distance is" + d.toString();
+  document.getElementById("").innerHTML = " "+ d.toString() +" "+"KM";
 }
 function manilaToTinuyAnFalls() {
   var lat1 = 14.59440662328432; // latitute of Manila
@@ -171,7 +171,7 @@ function manilaToTinuyAnFalls() {
           Math.sin(dLon/2) * Math.sin(dLon/2); 
   var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
   var d = R * c;
-  document.getElementById("").innerHTML = "The distance is" + d.toString();
+  document.getElementById("").innerHTML = " "+ d.toString() +" "+"KM";
 }
 function manilaToMalapasciaIsland() {
   var lat1 = 14.59440662328432; // latitute of Manila
@@ -186,7 +186,7 @@ function manilaToMalapasciaIsland() {
           Math.sin(dLon/2) * Math.sin(dLon/2); 
   var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
   var d = R * c;
-  document.getElementById("").innerHTML = "The distance is" + d.toString();
+  document.getElementById("").innerHTML = " "+ d.toString() +" "+"KM";
 }
 function manilaToMakatiCity() {
   var lat1 = 14.59440662328432; // latitute of Manila
@@ -201,7 +201,7 @@ function manilaToMakatiCity() {
           Math.sin(dLon/2) * Math.sin(dLon/2); 
   var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
   var d = R * c;
-  document.getElementById("").innerHTML = "The distance is" + d.toString();
+  document.getElementById("").innerHTML = " "+ d.toString() +" "+"KM";
 }
 function manilaToCantabonCave() {
   var lat1 = 14.59440662328432; // latitute of Manila
@@ -216,7 +216,7 @@ function manilaToCantabonCave() {
           Math.sin(dLon/2) * Math.sin(dLon/2); 
   var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
   var d = R * c;
-  document.getElementById("").innerHTML = "The distance is" + d.toString();
+  document.getElementById("").innerHTML = " "+ d.toString() +" "+"KM";
 }
 function manilaToBukidnon() {
   var lat1 = 14.59440662328432; // latitute of Manila
@@ -231,7 +231,7 @@ function manilaToBukidnon() {
           Math.sin(dLon/2) * Math.sin(dLon/2); 
   var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
   var d = R * c;
-  document.getElementById("").innerHTML = "The distance is" + d.toString();
+  document.getElementById("").innerHTML = " "+ d.toString() +" "+"KM";
 }
 function manilaToBatanes() {
   var lat1 = 14.59440662328432; // latitute of Manila
@@ -246,7 +246,7 @@ function manilaToBatanes() {
           Math.sin(dLon/2) * Math.sin(dLon/2); 
   var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
   var d = R * c;
-  document.getElementById("").innerHTML = "The distance is" + d.toString();
+  document.getElementById("").innerHTML = " "+ d.toString() +" "+"KM";
 }
 function manilaToTalipanan() {
   var lat1 = 14.59440662328432; // latitute of Manila
@@ -261,7 +261,7 @@ function manilaToTalipanan() {
           Math.sin(dLon/2) * Math.sin(dLon/2); 
   var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
   var d = R * c;
-  document.getElementById("").innerHTML = "The distance is" + d.toString();
+  document.getElementById("").innerHTML = " "+ d.toString() +" "+"KM";
 }
 function manilaToDahicanBeach() {
   var lat1 = 14.59440662328432; // latitute of Manila
@@ -276,7 +276,7 @@ function manilaToDahicanBeach() {
           Math.sin(dLon/2) * Math.sin(dLon/2); 
   var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
   var d = R * c;
-  document.getElementById("").innerHTML = "The distance is" + d.toString();
+  document.getElementById("").innerHTML = " "+ d.toString() +" "+"KM";
 }
 function manilaToEnchantedRiver() {
   var lat1 = 14.59440662328432; // latitute of Manila
@@ -291,7 +291,7 @@ function manilaToEnchantedRiver() {
           Math.sin(dLon/2) * Math.sin(dLon/2); 
   var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
   var d = R * c;
-  document.getElementById("").innerHTML = "The distance is" + d.toString();
+  document.getElementById("").innerHTML = " "+ d.toString() +" "+"KM";
 }
 function manilaToBoracay() {
   var lat1 = 14.59440662328432; // latitute of Manila
@@ -306,6 +306,6 @@ function manilaToBoracay() {
           Math.sin(dLon/2) * Math.sin(dLon/2); 
   var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
   var d = R * c;
-  document.getElementById("").innerHTML = "The distance is" + d.toString();
+  document.getElementById("").innerHTML = " "+ d.toString() +" "+"KM";
 }
 
