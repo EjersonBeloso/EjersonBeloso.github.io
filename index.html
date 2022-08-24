@@ -1,320 +1,450 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Philippine Kilometer</title>
-  </head>
-  <body>
-    <!DOCTYPE html>
     <html lang="en">
-      <head>
+        <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="style.css">
         <title>Document</title>
-      </head>
-      <style>
+        </head>
+        <style>
         img {
-          width: 100%;
-          height: 100%;
+            width: 100%;
+            height: 100%;
         }
-      </style>
-      
+    </style>
+    
         <div class="bg-info">
-          <nav class="navbar navbar-expand-lg bg-info">
-            <div class="container">
-              <a class="navbar-brand" href="#">Top 20 Must Travel Places in PH</a>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div
-                class="collapse navbar-collapse justify-content-between"
-                id="navbarNavAltMarkup"
-              >
-                <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="#"
-                    >Home</a
-                  >
-                  
-                </div>
-                <!-- ---------------------------------------------modal--------------------------------------------------------- -->
-                <div class="d-flex">
-                  <!-- log-in page -->
-                  <div class="m-2">
-                    <a
-                      class="btn btn-primary text-light"
-                      href="/pages/log-in.html"
-                      >Sign-in</a
-                    >
-                  </div>
-                  <!-- end of log-in -->
-                  <!-- Button trigger modal -->
-                 
+            <nav class="navbar navbar-expand-lg bg-info">
+                <div class="container">
+                    <a class="navbar-brand text-light fs-3" href="#">Travel<span id="ph">Philippines</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                  <!-- Modal -->
-              
-                <!-- ----------------------------------------------------end of modal--------------------------------------------- -->
-              </div>
-            </div>
-          </nav>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </div>
+
+                        <div class="m-2">
+                                <!-- <a class="btn btn-primary text-light" href="/pages/log-in.html">Sign-in</a> -->
+                                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalLabel2">Sign-up</button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModalLabel2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel2"><h4>Sign-Up</h4></h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+
+                                            <div class="modal-body">
+                                                <h5>Application User</h5>
+                                                <form>
+
+                                                    <div class="mb-3">
+                                                        <label for="exampleInputEmail1" class="form-label">Email address:</label>
+                                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
+                                                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                                    </div>
+
+                                                    <div class="mb-3">
+                                                        <label for="exampleInputName" class="form-label">Full Name:</label>
+                                                        <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp" placeholder="Enter Full Name" />
+                                                    </div>
+
+                                                    <div class="mb-3">
+                                                        <label for="exampleInputPassword1" class="form-label">Password:</label>
+                                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter password" />
+                                                    </div>
+
+                                                    <button type="submit" class="btn btn-primary">Sign-Up</button>
+                                                </form>
+                                            </div>
+
+                                            <div class="modal-footer">
+                                                <p>Sign-Up Successful, Thanks for registering with us! Go to <a href="/Components/login.html" class="text-primary">Login</a></p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
         </div>
         <!-- ----------------------------content---------------------------------------- -->
 
         <!-- card 1 -->
-          <div class="d-flex justify-content-between flex-wrap m-4">
+            <div class="d-flex justify-content-between flex-wrap m-4">
 <!-- ---------------------ejersonBeloso-------------------------------- -->
-<div class="card my-3 shadow p-3" style="width: 20rem">
-                                   <h3>Donsol Sorsogon</h3>
-                                   <img src="/images/01-whale-sharks-in-donsol.jpg" class="card-img-top"alt="donsol.png"/>
-                         <div class="card-body">
-                                   <h5 class="card-title"> Luzon</h5>
-                                   <p class="card-text">South</p>
-                                   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
-                                     Get Info
-                                   </button>
-                                   <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                     <div class="modal-dialog">
-                                       <div class="modal-content">
-                                         <div class="modal-header">
-                                           <h5 class="modal-title" id="exampleModalLabel">Whale Shark</h5>
-                                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                         </div>
-                                         <div class="modal-body">
-                                           <img src="/images/dansol1.2.jpg"><br><p>We're starting out big, and by this, we mean, quite literally! There’s nothing quite like the experience of swimming with these peaceful sea giants, and that’s why we think this should not be missing from our list. That said, we want to emphasize our preference for the small village Donsol (Sorsogon, Bicol region) and not for Oslob (Cebu). In Donsol the program was developed together with WWF (World Wide Fund for Nature) Philippines and is more regimented - here the animals are not fed, which changes their natural behavior.</p><span id="#carbon" class="fw-bold lead">Distance from Manila</span>
-                                         </div>
-                                         <div class="modal-footer">
-                                           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                           <button type="button" class="btn btn-primary">Book Trip</button>
-                                         </div>
-                                       </div>
-                                     </div>
-                                   </div>
-                         </div>
-                    </div>
+                    <div class="card my-3 shadow p-3" style="width: 20rem">
+                                                    <h3>Sorsogon</h3>
+                                                    <img src="/images/01-whale-sharks-in-donsol.jpg" class="card-img-top"alt="donsol.png"/>
+                                            <div class="card-body">
+                                                    <h5 class="card-title"> Donsol</h5>
+                                                    <p class="card-text">South</p>
+                                                    <button onclick="manilaToDonsol()" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                                                        Get info
+                                                    </button>
+                                                    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalLabel">Whale Shark</h5>
+                                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                            <img src="/images/dansol1.2.jpg"><br><p>We're starting out big, and by this, we mean, quite literally! There’s nothing quite like the experience of swimming with these peaceful sea giants, and that’s why we think this should not be missing from our list. That said, we want to emphasize our preference for the small village Donsol (Sorsogon, Bicol region) and not for Oslob (Cebu). In Donsol the program was developed together with WWF (World Wide Fund for Nature) Philippines and is more regimented - here the animals are not fed, which changes their natural behavior.</p><span id="donsol" class="fw-bold lead"></span>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                            <button type="button" class="btn btn-primary">Book Trip</button>
+                                                            </div>
+                                                        </div>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
 <!-- card2 -->
-<div class="card my-3 shadow p-3" style="width: 20rem">
-                                   <h3>El Nido Palawan</h3>
-                                   <img src="/images/02-el-nido.jpg" class="card-img-top"alt="02-el-nido.png"/>
-                         <div class="card-body">
-                                   <h5 class="card-title"> Visayas</h5>
-                                   <p class="card-text">West</p>
-                                   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-                                     Get Info
-                                   </button>
-                                   <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                     <div class="modal-dialog">
-                                       <div class="modal-content">
-                                         <div class="modal-header">
-                                           <h5 class="modal-title" id="exampleModalLabel">Coron</h5>
-                                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                         </div>
-                                         <div class="modal-body">
-                                           <img src="/images/El-nido-2.2.jpg"><br><p>This is one of the main reasons why Palawan is repeatedly voted one of the most beautiful islands in the world: El Nido. Although Palawan is also a province in itself, to which quite a few islands belong, El Nido and the Bacuit Archipelago are especially in the spotlight here - so much, so that there is justifiable talk of over-tourism, and even closures are necessary at times. But if you know the right corners, you will have a great time here! Here you will be spoilt with pristine beaches, rich marine life, lagoons, caves, and stunning landscapes and cliff formations. </p><span id="#carbon" class="fw-bold lead">Distance from Manila</span>
-                                         </div>
-                                         <div class="modal-footer">
-                                           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                           <button type="button" class="btn btn-primary">Book Trip</button>
-                                         </div>
-                                       </div>
-                                     </div>
-                                   </div>
-                         </div>
-                    </div>
-<!-- card3 -->
-<div class="card my-3 shadow p-3" style="width: 20rem">
-                                   <h3>Mt Hibok Hibok</h3>
-                                   <img src="/images/03-mount-hibok-hibok.jpg" class="card-img-top"alt="hibok.png"/>
-                         <div class="card-body">
-                                   <h5 class="card-title"> Visayas</h5>
-                                   <p class="card-text">South</p>
-                                   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
-                                     Get Info
-                                   </button>
-                                   <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                     <div class="modal-dialog">
-                                       <div class="modal-content">
-                                         <div class="modal-header">
-                                           <h5 class="modal-title" id="exampleModalLabel">Camiguin</h5>
-                                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                         </div>
-                                         <div class="modal-body">
-                                           <img src="/images/camiguin2.jpg"><br><p>There are several elevations on the Philippines islands, the highest mountains are Mount Apo in Davao, Mount Pulag in Luzon, or Dulang Dulang in the province of Bukidnon. Mount "Hibok-Hibok", one of the many volcanoes found on the island of Camiguin, is exemplary for the many great hiking possibilities. </p><span id="#carbon" class="fw-bold lead">Distance from Manila</span>
-                                         </div>
-                                         <div class="modal-footer">
-                                           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                           <button type="button" class="btn btn-primary">Book Trip</button>
-                                         </div>
-                                       </div>
-                                     </div>
-                                   </div>
-                         </div>
-                    </div>
-<!-- card4 -->
-<div class="card my-3 shadow p-3" style="width: 20rem">
-                                   <h3>Siargao</h3>
-                                   <img src="/images/04-cloud-9-in-siargao.jpg" class="card-img-top"alt="hibok.png"/>
-                         <div class="card-body">
-                                   <h5 class="card-title"> Mindanao</h5>
-                                   <p class="card-text">South</p>
-                                   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal4">
-                                     Get Info
-                                   </button>
-                                   <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                     <div class="modal-dialog">
-                                       <div class="modal-content">
-                                         <div class="modal-header">
-                                           <h5 class="modal-title" id="exampleModalLabel">Siargao Island</h5>
-                                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                         </div>
-                                         <div class="modal-body">
-                                           <img src="/images/siargao4.2.jpg"><br><p> Siargao boasts unspoiled white sandy beaches, lush coconut groves, and stunning rock formations. But the most important attraction is probably the internationally known surfing spot, "Cloud 9", best visited during the months of September to November.</p><span id="#carbon" class="fw-bold lead">Distance from Manila</span>
-                                         </div>
-                                         <div class="modal-footer">
-                                           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                           <button type="button" class="btn btn-primary">Book Trip</button>
-                                         </div>
-                                       </div>
-                                     </div>
-                                   </div>
-                         </div>
-                    </div>
-<!-- ------------------------------------end of  ejersonBeloso------------------------------------ -->
-                <div class="d-flex flex-wrap justify-content-around">
-                     <div class="card my-3 shadow p-3" style="width: 20rem">
-                                    <h3>Libjo Island</h3>
-                                    <img src="/images/9.1.jpg" class="card-img-top"alt="donsol.png"/>
-                          <div class="card-body">
-                                    <h5 class="card-title"> Dinagat Islands</h5>
+                    <div class="card my-3 shadow p-3" style="width: 20rem">
+                                        <h3>Palawan</h3>
+                                        <img src="/images/02-el-nido.jpg" class="card-img-top"alt="02-el-nido.png"/>
+                                <div class="card-body">
+                                        <h5 class="card-title">El Nido</h5>
+                                        <p class="card-text">South</p>
+                                        <button onclick="manilaToElNido()" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                            Get info
+                                        </button>
+                                        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">El Nido</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                <img src="/images/El-nido-2.2.jpg"><br><p>This is one of the main reasons why Palawan is repeatedly voted one of the most beautiful islands in the world: El Nido. Although Palawan is also a province in itself, to which quite a few islands belong, El Nido and the Bacuit Archipelago are especially in the spotlight here - so much, so that there is justifiable talk of over-tourism, and even closures are necessary at times. But if you know the right corners, you will have a great time here! Here you will be spoilt with pristine beaches, rich marine life, lagoons, caves, and stunning landscapes and cliff formations. </p><span id="elnido" class="fw-bold lead"></span>
+                                                </div>
+                                                <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Book Trip</button>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+            <!-- card3 -->
+            <div class="card my-3 shadow p-3" style="width: 20rem"> 
+                                    <h3>Camiguin Island</h3>
+                                    <img src="/images/03-mount-hibok-hibok.jpg" class="card-img-top"alt="hibok.png"/>
+                            <div class="card-body">
+                                    <h5 class="card-title">Mout Hibok-Hibok</h5>
                                     <p class="card-text">South</p>
-
-                                      
-                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal9">
-                                      Get Info
+                                    <button onclick="manilaToMountHibokhibok()" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                                        Get info
                                     </button>
-                                    <div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                      <div class="modal-dialog">
+                                    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
                                         <div class="modal-content">
-                                          <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Kisses Islets</h5>
+                                            <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Mount Hibok-Hibok</h5>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                          </div>
-                                          <div class="modal-body">
-                                            <img src="/images/9.2.jpeg"><br><p>If you have been to El Nido or want to visit the counterpart in the east, you should take a look at Libjo, Dinagat Islands. Here you can find the hidden gems of Kisses Islets, which are at least as beautiful, but at least twice as difficult to reach. Besides the jaw-dropping limestone, the crystal-clear turquoise waters protected by the striking little islets are calm and beguiling. Dinagat in itself is also well-known for its beaches, resorts, and caves.</p><span id="#libjo" class="fw-bold lead">Distance from Manila</span>
-                                          </div>
-                                          <div class="modal-footer">
+                                            </div>
+                                            <div class="modal-body">
+                                            <img src="/images/camiguin2.jpg"><br><p>There are several elevations on the Philippines islands, the highest mountains are Mount Apo in Davao, Mount Pulag in Luzon, or Dulang Dulang in the province of Bukidnon. Mount "Hibok-Hibok", one of the many volcanoes found on the island of Camiguin, is exemplary for the many great hiking possibilities. </p><span id="camiguin" class="fw-bold lead"></span>
+                                            </div>
+                                            <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                                             <button type="button" class="btn btn-primary">Book Trip</button>
-                                          </div>
+                                            </div>
                                         </div>
-                                      </div>
+                                        </div>
                                     </div>
-                          </div>
-                      </div>
-                  </div>
+                            </div>
+                        </div>
+<!-- card4 -->
+
+
+
+        <div class="card my-3 shadow p-3" style="width: 20rem">
+                                    <h3>Siargao</h3>
+                                    <img src="/images/04-cloud-9-in-siargao.jpg" class="card-img-top"alt="hibok.png"/>
+                            <div class="card-body">
+                                    <h5 class="card-title"> Mindanao</h5>
+                                    <p class="card-text">South</p>
+                                    <button onclick="manilaToSiargao()" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                                        Get info
+                                    </button>
+                                    <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Siargao Island</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                            <img src="/images/siargao4.2.jpg"><br><p> Siargao boasts unspoiled white sandy beaches, lush coconut groves, and stunning rock formations. But the most important attraction is probably the internationally known surfing spot, "Cloud 9", best visited during the months of September to November.</p><span id="siargao" class="fw-bold lead"></span>
+                                            </div>
+                                            <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Book Trip</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                            </div>
+                    </div>
+<!-- ------------------------------------end of  ejersonBeloso------------------------------------ -->
+
+                                         <!-- * JEFF PART CARD 17-20 START -->
+                        <div class="card my-3 shadow p-3" style="width: 20rem">
+                            <h3>Bohol</h3>
+                            <img src="/images/05-chocolate-hills-in-bohol.jpg" class="card-img-top"alt="donsol.png"/>
+                            <div class="card-body">
+                                <h5 class="card-title"> Chocolate Hills</h5>
+                                <p class="card-text">South</p>
+                                <button onclick="manilaToBohol()" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                                            Get info
+                                </button>
+                                <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Chocolate Hills</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img src="/images/05-chocolate-hills-in-bohol.jpg"><br><p>Bohol is one of the most popular provinces in the Philippines, and the Chocolate Hills are a real tourist magnet. There are two popular viewpoints - one in Carmen and one in Sagbayan. If you would like to see these hills in nature, then this tour is the right choice. The chocolate hills, which are actually green for the longest time of the year, are considered one of the landmarks of Bohol. Bohol itself is rightly one of the most visited provinces among local and international tourists, as it is very varied and a lot to offer for all kinds of travelers. The Chocolate Hills can also be easily reached from Anda, for example, and there is (still) far less activity there than in many other parts of Bohol.</p><span id="chocolatehills" class="fw-bold lead"></span>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Book Trip</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    <div class="card my-3 shadow p-3" style="width: 20rem">
+                        <h3>Banaue</h3>
+                        <img src="/images/06-rice-terraces-in-northern-luzon.jpg" class="card-img-top"alt="donsol.png"/>
+                        <div class="card-body">
+                            <h5 class="card-title">Banaue Rice Terraces</h5>
+                            <p class="card-text">North</p>
+                            <button onclick="manilaToBanaue()" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                            Get info
+                            </button>
+                            <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Banaue Rice Terraces</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="/images/06-rice-terraces-in-northern-luzon.jpg"><br><p>In no top list to the Philippines will the awe-inspiring rice terraces be missing. Inscribed on the UNESCO World Heritage List in 1995 (another great reason to visit the emerald rice terraces of the Philippines!), the most famous ones are found in the north of the country, namely in Banaue and Bontoc. Whoever undertakes the sometimes arduous journey to the millennia-old rice terraces should take enough time with them, at least 4 to 5 days.</p><span id="banaue" class="fw-bold lead"></span>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Book Trip</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card my-3 shadow p-3" style="width: 20rem">
+                        <h3>Negros Oriental</h3>
+                        <img src="/images/07-apo-island.jpg" class="card-img-top"alt="donsol.png"/>
+                        <div class="card-body">
+                            <h5 class="card-title"> Apo Island</h5>
+                            <p class="card-text">South</p>
+                            <button onclick="manilaToApoIsland() " type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal7">
+                            Get info
+                            </button>
+                            <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Apo Island</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="/images/07-apo-island.jpg"><br><p>The island Apo in front of Negros has not been a diving secret tip for a long time, but a visit to the island sanctuary is still worthwhile. The best way to reach the small island is from Zamboangita / Malatapay, which is southwest of Dumaguete. Alternatively, you can also travel via Siquijor Island.</p><span id="apoisland" class="fw-bold lead"></span>
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Book Trip</button>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card my-3 shadow p-3" style="width: 20rem">
+                        <h3>Ilocos Sur</h3>
+                        <img src="/images/08-vigan-city.jpg" class="card-img-top"alt="donsol.png"/>
+                        <div class="card-body">
+                            <h5 class="card-title"> Vigan City</h5>
+                            <p class="card-text">South</p>
+                            <button onclick="manilaToViganCity() " type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal8">
+                            Get info
+                            </button>
+                                <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Vigan City</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                        <img src="/images/08-vigan-city.jpg"><br><p>A UNESCO-heritage site, a walk into the Vigan City cobblestone streets will easily feel like you are traveling back in time. Here in this well-preserved town, you will find beautiful colonial houses from the Spanish era, heritage museums, and horse-drawn carriages. Also, you can't miss the street-food stalls highlighting must-try Ilocano foods.</p><span id="vigancity" class="fw-bold lead"></span>
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Book Trip</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                      <!-- * JEFF PART CARD 17-20 END -->
+
+
+                <div class="d-flex flex-wrap justify-content-around">
+                        <div class="card my-3 shadow p-3" style="width: 20rem">
+                                        <h3>Dinagat Island</h3>
+                                        <img src="/images/9.1.jpg" class="card-img-top"alt="donsol.png"/>
+                            <div class="card-body">
+                                        <h5 class="card-title">Kisses Islets</h5>
+                                        <p class="card-text">South</p>
+                                        <button onclick="manilaToKissesIslets()" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal9">
+                                        Get info
+                                        </button>
+                                        <div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Kisses Islets</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img src="/images/9.2.jpeg"><br><p>If you have been to El Nido or want to visit the counterpart in the east, you should take a look at Libjo, Dinagat Islands. Here you can find the hidden gems of Kisses Islets, which are at least as beautiful, but at least twice as difficult to reach. Besides the jaw-dropping limestone, the crystal-clear turquoise waters protected by the striking little islets are calm and beguiling. Dinagat in itself is also well-known for its beaches, resorts, and caves.</p><span id="kisses" class="fw-bold lead"></span>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Book Trip</button>
+                                            </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                            </div>
+                        </div>
+                    </div>
                     <!-- card 2 -->
                     <div class="card my-3 shadow p-3" style="width: 20rem">
-                                   <h3>Carbon Cebu</h3>
-                                   <img src="/images/10.1.jpg" class="card-img-top"alt="donsol.png"/>
-                         <div class="card-body">
-                                   <h5 class="card-title"> Visayas</h5>
-                                   <p class="card-text">South</p>
-                                   <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal10">
-                                     Get Info
-                                   </button>
-                                   <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                     <div class="modal-dialog">
-                                       <div class="modal-content">
-                                         <div class="modal-header">
-                                           <h5 class="modal-title" id="exampleModalLabel">Carbon Market</h5>
-                                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                         </div>
-                                         <div class="modal-body">
-                                           <img src="/images/10.2.jpg"><br><p>One of the oldest urban markets in the country, it surprises us again and again that many travelers avoid the Carbon market or are even afraid to visit it. This is a local affair and a very nice opportunity to experience Philippine everyday life up close and personal. Also, other famous sights like Magellan's Cross or Basilica Sto. Nino is only a few minutes walk away.</p><span id="#carbon" class="fw-bold lead">Distance from Manila</span>
-                                         </div>
-                                         <div class="modal-footer">
-                                           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                           <button type="button" class="btn btn-primary">Book Trip</button>
-                                         </div>
-                                       </div>
-                                     </div>
-                                   </div>
-                         </div>
+                                    <h3>Cebu</h3>
+                                    <img src="/images/10.1.jpg" class="card-img-top"alt="donsol.png"/>
+                            <div class="card-body">
+                                    <h5 class="card-title">Carbon Market</h5>
+                                    <p class="card-text">South</p>
+                                    <button onclick="manilaToCarbonMarket()" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal10">
+                                        Get info
+                                    </button>
+                                    <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Carbon Market</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                            <img src="/images/10.2.jpg"><br><p>One of the oldest urban markets in the country, it surprises us again and again that many travelers avoid the Carbon market or are even afraid to visit it. This is a local affair and a very nice opportunity to experience Philippine everyday life up close and personal. Also, other famous sights like Magellan's Cross or Basilica Sto. Nino is only a few minutes walk away.</p><span id="carbon" class="fw-bold lead"></span>
+                                            </div>
+                                            <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Book Trip</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                            </div>
                     </div>
                     
 
                     <!-- card no 3 -->
                     
-                      <div class="card my-3 shadow p-3" style="width: 20rem">
-                                     <h3>Bislig, </h3>
-                                     <img src="/images/11.1.JPG" class="card-img-top"alt="donsol.png"/>
-                           <div class="card-body">
-                                     <h5 class="card-title">Surigao del Sur</h5>
-                                     <p class="card-text">South</p>
-                                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal11">
-                                       Get Info
-                                     </button>
-                                     <div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                       <div class="modal-dialog">
-                                         <div class="modal-content">
-                                           <div class="modal-header">
-                                             <h5 class="modal-title" id="exampleModalLabel">Carbon Market</h5>
-                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                           </div>
-                                           <div class="modal-body">
-                                             <img src="/images/11.2.jpeg" style="height: 300px; width: 250;" ><br><p>Rather known to adventurous trip insiders who also travel to the main island of Mindanao: the Tinuy-An Falls in Bislig, Surigao del Sur. It’s a three-tiered waterfall with natural pools where one can leisurely take a plunge. Many refer to the stunning falls as the Little Niagara Falls of the Philippines. While not as big, one can’t help but be amazed at the sight of Tinuy-an Falls’ curtain of clear waters cascading down its base.
+                        <div class="card my-3 shadow p-3" style="width: 20rem">
+                                        <h3>Surigao del Sur</h3>
+                                        <img src="/images/11.2.jpeg" class="card-img-top"alt="donsol.png"/>
+                            <div class="card-body">
+                                        <h5 class="card-title">Tinuy-An Falls</h5>
+                                        <p class="card-text">South</p>
+                                        <button onclick="manilaToTinuyAnFalls() " type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal11">
+                                        Get info
+                                        </button>
+                                        <div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Tinuy-An Falls</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img src="/images/11.2.jpeg" style="height: 300px; width: 250;" ><br><p>Rather known to adventurous trip insiders who also travel to the main island of Mindanao: the Tinuy-An Falls in Bislig, Surigao del Sur. It’s a three-tiered waterfall with natural pools where one can leisurely take a plunge. Many refer to the stunning falls as the Little Niagara Falls of the Philippines. While not as big, one can’t help but be amazed at the sight of Tinuy-an Falls’ curtain of clear waters cascading down its base.
 
-                                              On Mindanao, there are many other waterfalls like the Tinago Falls, the Aliwagwag Falls, and the Awao Falls.</p><span id="#bislig" class="fw-bold lead">Distance from Manila</span>
-                                           </div>
-                                           <div class="modal-footer">
-                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                             <button type="button" class="btn btn-primary">Book Trip</button>
-                                           </div>
-                                         </div>
-                                       </div>
-                                     </div>
-                                   </div>           
+                                                On Mindanao, there are many other waterfalls like the Tinago Falls, the Aliwagwag Falls, and the Awao Falls.</p><span id="tinuyanfalls" class="fw-bold lead"></span>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Book Trip</button>
+                                            </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>           
                                 </div>
-                      <!-----------------------Card no 4 --------------------->
+                    <!-----------------------Card no 4 --------------------->
 
-                      <div class="card my-3 shadow p-3" style="width: 20rem">
-                        <h3>Monad Shoal </h3>
-                        <img src="/images/12.1.jpg" class="card-img-top"alt="donsol.png"/>
-              <div class="card-body">
-                        <h5 class="card-title">Malapascua Island.</h5>
-                        <p class="card-text">South</p>
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal12">
-                          Get Info
-                        </button>
-                        <div class="modal fade" id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                          <div class="modal-dialog">
-                            <div class="modal-content">
-                              <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Carbon Market</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                              </div>
-                              <div class="modal-body">
-                                <img src="/images/12.2.jpg"><br><p>The only place in the world where thresher sharks can be found almost all year round is Monad Shoal around Malapascua Island. This island is located in the northwest of Cebu and is a must for divers. However, more and more individual travelers find their way here, because Kalanggaman is also not far away and always worth a trip.</p><span id="#monad" class="fw-bold lead">Distance from Manila</span>
-                              </div>
-                              <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Book Trip</button>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>           
-                   </div>
+                    <div class="card my-3 shadow p-3" style="width: 20rem">
+                                    <h3>Malapascua Island</h3>
+                                    <img src="/images/12.1.jpg" class="card-img-top"alt="donsol.png"/>
+                        <div class="card-body">
+                                    <h5 class="card-title">Monad Shoal</h5>
+                                    <p class="card-text">South</p>
+                                    <button onclick="manilaToMalapascuaIsland()" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal12">
+                                    Get info
+                                    </button>
+                                    <div class="modal fade" id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Monad Shoal</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="/images/12.2.jpg"><br><p>The only place in the world where thresher sharks can be found almost all year round is Monad Shoal around Malapascua Island. This island is located in the northwest of Cebu and is a must for divers. However, more and more individual travelers find their way here, because Kalanggaman is also not far away and always worth a trip.</p><span id="monadshoal" class="fw-bold lead"></span>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Book Trip</button>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>           
+                    </div>
 
                                        <!-- * BEA PART CARD 13-16 START -->
                         <div class="card my-3 shadow p-3" style="width: 20rem">
@@ -323,8 +453,8 @@
                             <div class="card-body">
                                 <h5 class="card-title"> Makati City</h5>
                                 <p class="card-text">North</p>
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal13">
-                                            Get Distance5
+                                <button onclick="manilaToMakatiCity()" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal13">
+                                            Get info
                                 </button>
                                 <div class="modal fade" id="exampleModal13" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog">
@@ -334,7 +464,7 @@
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
-                                                <img src="/images/13-makati.jpg"><br><p>Makati is the famous financial district of Manila and is sometimes compared to Manhattan. Everything is possible here, and Makati is exciting, colorful, dynamic, crazy, breathtaking, versatile, chaotic - absolutely worth seeing when you are in the Philippines!</p><span id="makati" class="fw-bold lead">Distance from Manila</span>
+                                                <img src="/images/13-makati.jpg"><br><p>Makati is the famous financial district of Manila and is sometimes compared to Manhattan. Everything is possible here, and Makati is exciting, colorful, dynamic, crazy, breathtaking, versatile, chaotic - absolutely worth seeing when you are in the Philippines!</p><span id="city" class="fw-bold lead"></span>
                                             </div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -352,8 +482,8 @@
                         <div class="card-body">
                             <h5 class="card-title"> Cantabon Cave</h5>
                             <p class="card-text">South</p>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal14">
-                            Get Distance
+                            <button onclick="manilaToCantabonCave()" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal14">
+                            Get info
                             </button>
                             <div class="modal fade" id="exampleModal14" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                 <div class="modal-dialog">
@@ -363,7 +493,7 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
-                                            <img src="/images/14-cantabon-cave.jpg"><br><p>We found one of the most beautiful stalactite caves in the majestic Siquijor Island - the Cantabon Cave. Inside the cave runs the subterrene stream while captivating formations of stalactites and stalagmites hang from the ceiling of the cave's chamber. Located roughly in the center of the island, around it, there are horror stories with mystical figures, Good Friday the black magicians/voodoo priests are said to meet here. Just the right thing for adventurers!</p><span id="siquijor" class="fw-bold lead">Distance from Manila</span>
+                                            <img src="/images/14-cantabon-cave.jpg"><br><p>We found one of the most beautiful stalactite caves in the majestic Siquijor Island - the Cantabon Cave. Inside the cave runs the subterrene stream while captivating formations of stalactites and stalagmites hang from the ceiling of the cave's chamber. Located roughly in the center of the island, around it, there are horror stories with mystical figures, Good Friday the black magicians/voodoo priests are said to meet here. Just the right thing for adventurers!</p><span id="cantaboncave" class="fw-bold lead"></span>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -381,8 +511,8 @@
                         <div class="card-body">
                             <h5 class="card-title">Bukidnon</h5>
                             <p class="card-text">South</p>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal15">
-                            Get Distance
+                            <button onclick="manilaToBukidnon()" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal15">
+                            Get info
                             </button>
                             <div class="modal fade" id="exampleModal15" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                 <div class="modal-dialog">
@@ -392,7 +522,7 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
-                                            <img src="/images/15-bukidnon.jpg"><br><p>The province of Bukidnon in northern Mindanao is unique. Here live the Talaandig and other indigenous tribes. Everyday life is dominated by agriculture, and cowboys roam on huge farms. From our point of view, Bukidnon is a future insider tip when it comes to farming and ecotourism. And, because Bukidnon boasts not just mountains and plateaus but also natural springs, waterfalls, and lakes, tag your friends along and take a dip in these wonders nature has to offer.</p><span id="bukidnon" class="fw-bold lead">Distance from Manila</span>
+                                            <img src="/images/15-bukidnon.jpg"><br><p>The province of Bukidnon in northern Mindanao is unique. Here live the Talaandig and other indigenous tribes. Everyday life is dominated by agriculture, and cowboys roam on huge farms. From our point of view, Bukidnon is a future insider tip when it comes to farming and ecotourism. And, because Bukidnon boasts not just mountains and plateaus but also natural springs, waterfalls, and lakes, tag your friends along and take a dip in these wonders nature has to offer.</p><span id="bukidnon" class="fw-bold lead"></span>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -410,8 +540,8 @@
                         <div class="card-body">
                             <h5 class="card-title">Sabtang Island</h5>
                             <p class="card-text">North</p>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal16">
-                            Get Distance
+                            <button onclick="manilaToBatanes()" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal16">
+                            Get info
                             </button>
                                 <div class="modal fade" id="exampleModal16" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog">
@@ -421,7 +551,7 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
-                                        <img src="/images/16-batanes.jpg"><br><p>Batanes Islands is the northernmost and smallest province and has been promoted by the tourism authorities for quite some time. Called Home of the WInds, this small province offers jaw-dropping terrains and bodies of water. However, the journey is arduous and only possible during a few months of the year. The rather Nordic than the tropical island is the home of the Ivatan, and here you can look back on a tradition of thousands of years. Here everything is different, you almost forget you are in a tropical country, and that is a good thing.</p><span id="batanes" class="fw-bold lead">Distance from Manila</span>
+                                        <img src="/images/16-batanes.jpg"><br><p>Batanes Islands is the northernmost and smallest province and has been promoted by the tourism authorities for quite some time. Called Home of the WInds, this small province offers jaw-dropping terrains and bodies of water. However, the journey is arduous and only possible during a few months of the year. The rather Nordic than the tropical island is the home of the Ivatan, and here you can look back on a tradition of thousands of years. Here everything is different, you almost forget you are in a tropical country, and that is a good thing.</p><span id="batanes" class="fw-bold lead"></span>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -441,9 +571,9 @@
                             <img src="/images/17-Talipanan Beach.jpg" class="card-img-top"alt="donsol.png"/>
                             <div class="card-body">
                                 <h5 class="card-title"> Talipanan Beach</h5>
-                                <p class="card-text">North</p>
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal17">
-                                            Get Distance
+                                <p class="card-text">South</p>
+                                <button onclick="manilaToTalipanan()" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal17">
+                                            Get info
                                 </button>
                                 <div class="modal fade" id="exampleModal17" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog">
@@ -453,7 +583,7 @@
                                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
-                                                <img src="/images/17-Talipanan Beach.jpg"><br><p>Talipanan Beach can be found in Puerto Galera.  If you are looking for a less crowded beach destination, you can't go wrong when you visit Talipanan beach. The secluded beach boasts impressive rock formations and a long narrow beach with white sand. Although the sand is not quite as white, the calm, clear blue waters of the beach and the tranquility the place offers is in itself a treat.</p><span id="puertogalera" class="fw-bold lead">Distance from Manila</span>
+                                                <img src="/images/17-Talipanan Beach.jpg"><br><p>Talipanan Beach can be found in Puerto Galera.  If you are looking for a less crowded beach destination, you can't go wrong when you visit Talipanan beach. The secluded beach boasts impressive rock formations and a long narrow beach with white sand. Although the sand is not quite as white, the calm, clear blue waters of the beach and the tranquility the place offers is in itself a treat.</p><span id="talipanan" class="fw-bold lead"></span>
                                             </div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -471,8 +601,8 @@
                         <div class="card-body">
                             <h5 class="card-title"> Dahican Beach</h5>
                             <p class="card-text">South</p>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal18">
-                            Get Distance
+                            <button onclick="manilaToDahicanBeach()" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal18">
+                            Get info
                             </button>
                             <div class="modal fade" id="exampleModal18" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                 <div class="modal-dialog">
@@ -482,7 +612,7 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
-                                            <img src="/images/18-Dahican beach.png"><br><p>Perhaps the most beautiful beach in the Philippines is located in Mati, Davao Oriental. Miles long, rough, serene, it's easy to fall in love with Dahican. With its long stretch of white sand beach with pristine waters and rich marine life, it's not surprising that it has become a leading destination for adventure enthusiasts and a variety of water-sports activities, including surfing, skim-boarding, and more.</p><span id="davao" class="fw-bold lead">Distance from Manila</span>
+                                            <img src="/images/18-Dahican beach.png"><br><p>Perhaps the most beautiful beach in the Philippines is located in Mati, Davao Oriental. Miles long, rough, serene, it's easy to fall in love with Dahican. With its long stretch of white sand beach with pristine waters and rich marine life, it's not surprising that it has become a leading destination for adventure enthusiasts and a variety of water-sports activities, including surfing, skim-boarding, and more.</p><span id="dahican" class="fw-bold lead"></span>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -500,8 +630,8 @@
                         <div class="card-body">
                             <h5 class="card-title"> Enchanted River</h5>
                             <p class="card-text">South</p>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal19">
-                            Get Distance
+                            <button onclick="manilaToEnchantedRiver()" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal19">
+                            Get info
                             </button>
                             <div class="modal fade" id="exampleModal19" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                 <div class="modal-dialog">
@@ -511,7 +641,7 @@
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
-                                            <img src="/images/19-enchanted-river.jpg"><br><p>The Hinatuan River or "Enchanted River" can also be found on Mindanao and not far from the Tinuy-an Falls. Hinatuan is a deep spring river famous for its striking blue color and hands-down clear waters. Also an absolute highlight, according to the locals, fairies and nymphs live here. We haven't seen them during our visit, but it was an awesome experience to be there anyway.</p><span id="surigao" class="fw-bold lead">Distance from Manila</span>
+                                            <img src="/images/19-enchanted-river.jpg"><br><p>The Hinatuan River or "Enchanted River" can also be found on Mindanao and not far from the Tinuy-an Falls. Hinatuan is a deep spring river famous for its striking blue color and hands-down clear waters. Also an absolute highlight, according to the locals, fairies and nymphs live here. We haven't seen them during our visit, but it was an awesome experience to be there anyway.</p><span id="enchantedriver" class="fw-bold lead"></span>
                                         </div>
                                         <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -529,8 +659,8 @@
                         <div class="card-body">
                             <h5 class="card-title"> Boracay Island</h5>
                             <p class="card-text">South</p>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal20">
-                            Get Distance
+                            <button onclick="manilaToBoracay()" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal20">
+                            Get info
                             </button>
                                 <div class="modal fade" id="exampleModal20" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog">
@@ -540,7 +670,8 @@
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
-                                        <img src="/images/20-boracay.jpg"><br><p>Last but not least we also included Boracay Island. Although we see the developments around this tourist magnet with mixed feelings, a top list of the best sights of the Philippines would simply not be complete without Boracay.</p><span id="aklan" class="fw-bold lead">Distance from Manila</span>
+                                        <img src="/images/20-boracay.jpg"><br><p>Boracay Island, one of the top beaches in the Philippines and one of the best Visayas tourist spots, is blessed with a long stretch of powdery white sand beach (called White Beach), crystal clear and azure waters, a stunning sunset, and more. The island doesn't fall short on adventures and activities for people of all ages.</p>
+                                        <span id="boracay" class="fw-bold lead"></span>
                                         </div>
                                         <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -552,187 +683,20 @@
                         </div>
                     </div>
                       <!-- * JEFF PART CARD 17-20 END -->
-
-                      <!-- MAYNARD PART CARD 5-8 -->
-                      <div class="card my-3 shadow p-3" style="width: 20rem">
-                        <h3>Bohol</h3>
-                        <img src="/images/05-chocolate-hills-in-bohol.jpg" class="card-img-top"alt="Chocolate Hills"/>
-                        <div class="card-body">
-                            <h5 class="card-title"> Chocolate Hills</h5>
-                            <p class="card-text">South</p>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal5">
-                            Get Distance
-                            </button>
-                                <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
-                                        <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Chocolate Hills</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                        <img src="/images/5(2).jpeg"><br><p>Bohol is one of the most popular provinces in the Philippines, and the Chocolate Hills are a real tourist magnet. There are two popular viewpoints - one in Carmen and one in Sagbayan. If you would like to see these hills in nature, then this tour is the right choice.</p><span id="bohol" class="fw-bold lead">Distance from Manila</span>
-                                        </div>
-                                        <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Book Trip</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-
-                    <div class="card my-3 shadow p-3" style="width: 20rem">
-                      <h3>Banaue</h3>
-                      <img src="/images/06-rice-terraces-in-northern-luzon.jpg" class="card-img-top"alt="donsol.png"/>
-                      <div class="card-body">
-                          <h5 class="card-title"> Rice Terraces</h5>
-                          <p class="card-text">North</p>
-                          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal6">
-                          Get Distance
-                          </button>
-                              <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                  <div class="modal-dialog">
-                                      <div class="modal-content">
-                                      <div class="modal-header">
-                                      <h5 class="modal-title" id="exampleModalLabel">Rice Terraces</h5>
-                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                      </div>
-                                      <div class="modal-body">
-                                      <img src="/images/6(2).jpeg"><br><p>In no top list to the Philippines will the awe-inspiring rice terraces be missing. Inscribed on the UNESCO World Heritage List in 1995 (another great reason to visit the emerald rice terraces of the Philippines!), the most famous ones are found in the north of the country, namely in Banaue and Bontoc. Whoever undertakes the sometimes arduous journey to the millennia-old rice terraces should take enough time with them, at least 4 to 5 days. </p><span id="banaue" class="fw-bold lead">Distance from Manila</span>
-                                      </div>
-                                      <div class="modal-footer">
-                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                      <button type="button" class="btn btn-primary">Book Trip</button>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                      </div>
-                  </div>
-
-                  <div class="card my-3 shadow p-3" style="width: 20rem">
-                    <h3>Negros</h3>
-                    <img src="/images/7(2).jpg" class="card-img-top"alt="donsol.png"/>
-                    <div class="card-body">
-                        <h5 class="card-title">  Apo Island</h5>
-                        <p class="card-text">South</p>
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal7">
-                        Get Distance
-                        </button>
-                            <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                    <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Rice Terraces</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                    <img src="/images/07-apo-island.jpg"><br><p>The island Apo in front of Negros has not been a diving secret tip for a long time, but a visit to the island sanctuary is still worthwhile. The best way to reach the small island is from Zamboangita / Malatapay, which is southwest of Dumaguete. Alternatively, you can also travel via Siquijor Island. </p><span id="banaue" class="fw-bold lead">Distance from Manila</span>
-                                    </div>
-                                    <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Book Trip</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
                 </div>
-
-                <div class="card my-3 shadow p-3" style="width: 20rem">
-                  <h3>Vigan</h3>
-                  <img src="/images/08-vigan-city.jpg" class="card-img-top"alt="donsol.png"/>
-                  <div class="card-body">
-                      <h5 class="card-title">  Apo Island</h5>
-                      <p class="card-text">North</p>
-                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal8">
-                      Get Distance
-                      </button>
-                          <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                              <div class="modal-dialog">
-                                  <div class="modal-content">
-                                  <div class="modal-header">
-                                  <h5 class="modal-title" id="exampleModalLabel">Vigan Heritage Village</h5>
-                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                  </div>
-                                  <div class="modal-body">
-                                  <img src="/images/8(2).jpeg"><br><p> A UNESCO-heritage site, a walk into the Vigan City cobblestone streets will easily feel like you are traveling back in time. Here in this well-preserved town, you will find beautiful colonial houses from the Spanish era, heritage museums, and horse-drawn carriages. Also, you can’t miss the street-food stalls highlighting must-try Ilocano foods. </p><span id="banaue" class="fw-bold lead">Distance from Manila</span>
-                                  </div>
-                                  <div class="modal-footer">
-                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                  <button type="button" class="btn btn-primary">Book Trip</button>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  </div>
-              </div>
-              <!-- MAYNAD END -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-           </div>       
-           <!-- Button trigger modal -->
-
-<!-- Button trigger modal -->
-
-
-<!-- Modal -->
-
-
-
-<!-- Modal -->
-
-        <!-- ----------------------------------------end of content------------------------------- -->
+            </div>       
         <footer
-          class="navbar bg-info  navbar-dark text-center mt-3"
+        class="navbar bg-info  navbar-dark text-center mt-3"
         >
-          <div class="container">
-            <p class="navbar-brand text-dark mx-auto disabled">
-              Copyright © 2022 Kilometer KodeGo
+        <div class="container">
+            <p class="navbar-brand text-dark mx-auto">
+            Copyright © 2022 Kilometer KodeGo
             </p>
-          </div>
+        </div>
         </footer>
-      
-    </html>
-  </body>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="/js/distance.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+
 </html>
 
